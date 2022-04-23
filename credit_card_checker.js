@@ -1,3 +1,8 @@
+// this app takes in an array of credit card numbers
+// and returns a list of companies that produced faulty 
+// credit cards
+
+
 //convert card number strings into arrays to work with
 const convertStringToArr = cardNumber => {
   return cardNumber.split("");
